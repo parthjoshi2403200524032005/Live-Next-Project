@@ -585,7 +585,7 @@ const Searchresults = ({ apiResults, searchInput }) => {
   return (
     <>
       <NavBar />
-      <h1>Search Results for: {inputValue}</h1>
+      {/* <h1>Search Results for: {inputValue}</h1> */}
       <Box
         borderRadius={2}
         margin={{ xs: 0, md: 4 }}
