@@ -578,7 +578,7 @@ const Searchresults = ({ apiResults, searchInput }) => {
     if (inputValue.trim() === "") {
       router.push(`/search/doctor`);
     } else {
-      router.push(`/searchresults/${inputValue}`);
+      router.push(`/search${inputValue}`);
     }
   };
 
