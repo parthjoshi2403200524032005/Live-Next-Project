@@ -1,5 +1,6 @@
 import Head from 'next/head';
-import Home from './home.jsx';
+// import Home from './home.jsx';
+// import Searchresults from './search.jsx';
 
 
 export default function HomePage() {
@@ -10,7 +11,8 @@ export default function HomePage() {
         <meta name="description" content="Welcome to HealthMudraa" />
         <link rel="canonical" href="/" />
       </Head>
-      <Home />
+      {/* <Home /> */}
+      {/* <Searchresults/> */}
     </>
   );
 }
